@@ -87,8 +87,10 @@ body {
 
 /* section */
 .section {
-  text-decoration: none;
   background-color: #e5e5e5;
+}
+.section-team {
+  background-color: #f5f4fa;
 }
 /* captions style */
 .section-title {
