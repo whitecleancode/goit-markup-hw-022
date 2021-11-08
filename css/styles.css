@@ -20,6 +20,7 @@ text-color = #757575
 body {
   color: #757575;
   background-color: var(--header-color);
+  text-decoration: none;
   font-family: Roboto, sans-serif;
   font-weight: 400;
 }
