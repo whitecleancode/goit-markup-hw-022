@@ -109,6 +109,9 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 }
+.button-portfolio {
+  cursor: pointer;
+}
 
 /* section */
 .section {
