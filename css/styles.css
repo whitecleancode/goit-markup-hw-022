@@ -20,24 +20,39 @@ text-color = #757575
 body {
   color: var(--black);
   background-color: var(--header-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
 }
 
 .page {
   background-color: var(--bg-color-section-one);
 }
 
+.header {
+  background-color: #ffffff;
+}
+
 .logo {
-  color: var(--accent-color);
-  text-decoration: none;
   font-family: Raleway, sans-serif;
   font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  text-decoration: none;
 }
 .logo-black {
   color: var(--title-color);
 }
 /* site nav */
+
 .site-nav .link {
-  color: var(--black);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -46,7 +61,14 @@ body {
 .site-nav .link.current {
   color: var(--accent-color);
 }
-
+.mail {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.tel {
+  color: #757575;
+  text-decoration: none;
+}
 /* hero */
 .hero {
   background-color: var(--hero-ftr-color);
@@ -63,9 +85,16 @@ body {
   color: var(--header-color);
 }
 
+/* section */
+.section {
+  text-decoration: none;
+  background-color: #e5e5e5;
+}
 /* captions style */
 .section-title {
   color: var(--title-color);
+  font-weight: 700;
+  text-decoration: none;
 }
 .secondary-text {
   color: var(--text-color);
