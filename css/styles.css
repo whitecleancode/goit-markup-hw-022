@@ -80,6 +80,11 @@ body {
   color: var(--accent-color);
 }
 
+.mail:focus,
+.tel:focus {
+  color: var(--accent-color);
+}
+
 .tel {
   color: #757575;
   font-weight: 500;
